@@ -14,8 +14,13 @@ layout: zh/default
 		</tr>
 	</thead>
 	<tbody>
+		<tr class="b">
+			<td><i class="fa fa-flag fa-2 " aria-hidden="true" style="color:red"></i> v 3.5.3 GA </td>
+			<td>2022/07/23</td>
+			<td> <a href="https://pan.baidu.com/s/1lrSsARpyLlmkXeCbgrCy2g" target="_blank">链接下载</a>  </td>
+		</tr>
 		<tr class="a">
-			<td><i class="fa fa-flag fa-2 " aria-hidden="true" style="color:red"></i>  v 3.5.2 GA </td>
+			<td> v 3.5.2 GA </td>
 			<td>2022/07/14</td>
 			<td> <a href="https://pan.baidu.com/s/1144fUn7WcF0stnzpva3IvQ" target="_blank">链接下载</a>  </td>
 		</tr>
