@@ -521,6 +521,12 @@ layout: zh/default
 		</tr>
 		<tr>
 			<td>其他</td>
+			<td>Maven版本</td>
+			<td><div class="icon"><i class="fa fa-lock" style="color:red;"></i></div></td>
+			<td><div class="icon"><i class="fa fa-check-square" style="color:#009999;"></i></div></td>
+		</tr>
+		<tr>
+			<td>其他</td>
 			<td>JAVA SDK<br/>.NET SDK</td>
 			<td><div class="icon"><i class="fa fa-check-square" style="color:#009999;"></i></div></td>
 			<td><div class="icon"><i class="fa fa-check-square" style="color:#009999;"></i></div></td>
