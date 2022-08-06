@@ -138,6 +138,13 @@ layout: zh/default
 		<tr>
 			<td></td>
 			<td></td>
+			<td>maxkey-authentication-provider</td>
+			<td></td>
+			<td>登录认证-认证服务</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
 			<td>maxkey-authentication-social</td>
 			<td></td>
 			<td>登录认证-社交账号</td>
