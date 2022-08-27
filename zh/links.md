@@ -108,7 +108,7 @@ Dromara 致力于微服务云原生解决方案的组织。
 	</div>
 	<div class="col-md-2 flinks">
 		<a href="https://plugins.sheng90.wang/fast-request/" target="_blank">
-			<img src="/static/images/dromara/fast-request.png"
+			<img src="/static/images/dromara/fast-request.gif"
 				title="Idea 版 Postman，为简化调试API而生">
 		</a>
 	</div>
@@ -144,6 +144,10 @@ Dromara 致力于微服务云原生解决方案的组织。
 		</a>
 	</div>
 	<div class="col-md-2 flinks">
+		<a href="https://www.herodotus.cn/" target="_blank">
+			<img src="/static/images/dromara/dante-cloud2.png"
+				title="Dante-Cloud 是一款企业级微服务架构和服务能力开发平台。">
+		</a>
 	</div>
 	<div class="col-md-2 flinks">
 	</div>
