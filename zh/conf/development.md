@@ -44,13 +44,18 @@ layout: zh/default
 		</tr>
 		<tr>
 			<td>Tomcat/tomcat-embed</td>
-			<td> 9 +</td>
+			<td>9 +</td>
 			<td>应用服务器(内置)</td>
 		</tr>
 		<tr>
 			<td>Kafka</td>
 			<td>2.5.0 +</td>
-			<td>用户生命周期管理同步中间件(可选)</td>
+			<td>用户生命周期管理同步消息中间件(可选)</td>
+		</tr>
+		<tr>
+			<td>RocketMQ</td>
+			<td>4.9.0 +</td>
+			<td>用户生命周期管理同步消息中间件(可选)</td>
 		</tr>
 		<tr>
 			<td>Redis</td>
@@ -245,7 +250,7 @@ layout: zh/default
 			<td>maxkey-persistence</td>
 			<td></td>
 			<td></td>
-			<td>数据库持久化和Kafka同步</td>
+			<td>数据库持久化和实时数据同步</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -360,13 +365,6 @@ layout: zh/default
 			<td>maxkey-gataway</td>
 			<td></td>
 			<td>基于Spring Cloud套件的网关服务</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td>maxkey-boot-monitor</td>
-			<td></td>
-			<td>基于Spring Boot Admin监控</td>
 		</tr>
 		<tr>
 			<td></td>
