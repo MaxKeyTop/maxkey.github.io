@@ -72,27 +72,27 @@ layout: zh/default
 		<tr class="b">
 			<td>v 3.2.0 GA </td>
 			<td>2021/12/21</td>
-			<td> <a href="https://pan.baidu.com/s/14pRYHXc9ctQNNOd4vDDlCQ" target="_blank">链接下载</a>  </td>
+			<td> 2022/12/31  </td>
 		</tr>
 		<tr class="a">
 			<td>v 3.1.1 GA </td>
 			<td>2021/11/30</td>
-			<td> <a href="https://pan.baidu.com/s/1s4Jq0PYL-P6e42FqGhnrKA" target="_blank">链接下载</a>  </td>
+			<td> 2022/12/31  </td>
 		</tr>
 		<tr class="b">
 			<td>v 3.1.0 GA </td>
 			<td>2021/11/03</td>
-			<td> <a href="https://pan.baidu.com/s/19_waeSGXN7k-0lK9O8uxng" target="_blank">链接下载</a>  </td>
+			<td> 2022/12/31  </td>
 		</tr>
 		<tr class="a">
 			<td>v 3.0.0 GA </td>
 			<td>2021/09/29</td>
-			<td> <a href="https://pan.baidu.com/s/1UtEgLD1Pz7FQXZePZaP9Tw" target="_blank">链接下载</a>  </td>
+			<td> 2022/12/31  </td>
 		</tr>
 		<tr class="b">
 			<td>v 2.9.0 GA </td>
 			<td>2021/08/24</td>
-			<td> <a href="https://pan.baidu.com/s/1fYkTHDk2PQ9iAP05PmuPAg" target="_blank">链接下载</a>  </td>
+			<td> 2022/12/31  </td>
 		</tr>
 		<tr class="a">
 			<td>v 2.9.0 RC1 </td>
