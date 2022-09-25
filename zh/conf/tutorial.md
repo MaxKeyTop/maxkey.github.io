@@ -151,11 +151,6 @@ layout: zh/default
                             <td>账户密码</td>
                             <td>admin/maxkey</td>
                         </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>监控账户密码</td>
-                            <td>monitor/maxkey</td>
-                        </tr>
                     </tbody>
 </table>		
 
