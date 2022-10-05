@@ -210,8 +210,14 @@ Dromara 致力于微服务云原生解决方案的组织。
 		<a href="https://codoc.rthinkingsoft.cn/" target="_blank"> CollectiveOAuth </a>
 	</div>
 	<div class="col-md-2 flinks">
+		<img style="padding-left: 45px;" src="{{"/static/images/partners/snowy_logo.png" | prepend: site.baseurl
+			}}?{{ site.time | date: "%Y%m%d%H%M" }}" title="Snowy">
+		<a href="https://www.xiaonuo.vip/?from=MaxKey" target="_blank"> 小诺开源技术 </a>
 	</div>
 	<div class="col-md-2 flinks">
+		<img style="padding-left: 45px;" src="{{"/static/images/partners/justauth.jpg" | prepend: site.baseurl
+			}}?{{ site.time | date: "%Y%m%d%H%M" }}" title="Justauth">
+		<a href="https://justauth.wiki/?from=MaxKey" target="_blank"> Justauth </a>
 	</div>
 	<div class="col-md-2 flinks">
 	</div>
