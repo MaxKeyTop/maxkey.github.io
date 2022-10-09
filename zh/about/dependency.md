@@ -192,196 +192,196 @@ layout: zh/default
             <td>commons-beanutils</td>
             <td>{{site.commonsbeanutilsVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>commons-codec</td>
             <td>commons-codec</td>
             <td>{{site.commonscodecVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>commons-collections</td>
             <td>commons-collections</td>
             <td>{{site.commonscollectionsVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 		<tr>
             <td>compile</td>
             <td>org.apache.commons</td>
             <td>commons-collections4</td>
             <td>{{site.commonscollections4Version}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 		<tr>
             <td>compile</td>
             <td>org.apache.commons</td>
             <td>commons-compress</td>
             <td>{{site.commonscompressVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>	
+            <td>Apache-2.0</td></tr>	
         <tr>
             <td>compile</td>
             <td>org.apache.commons</td>
             <td>commons-csv</td>
             <td>{{site.commonscsvVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 		<tr>
             <td>compile</td>
             <td>org.apache.commons </td>
             <td>commons-text</td>
             <td>{{site.commonstextVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.commons</td>
             <td>commons-dbcp2</td>
             <td>{{site.commonsdbcp2Version}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>commons-dbutils</td>
             <td>commons-dbutils</td>
             <td>{{site.commonsdbutilsVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.commons</td>
             <td>commons-digester3</td>
             <td>{{site.commonsdigester3Version}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>commons-digester</td>
             <td>commons-digester</td>
             <td>{{site.commonsdigesterVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>commons-io</td>
             <td>commons-io</td>
             <td>{{site.commonsioVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>commons-lang</td>
             <td>commons-lang</td>
             <td>{{site.commonslangVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.commons</td>
             <td>commons-lang3</td>
             <td>{{site.commonslang3Version}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>commons-logging</td>
             <td>commons-logging</td>
             <td>{{site.commonsloggingVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.commons</td>
             <td>commons-pool2</td>
             <td>{{site.commonspool2Version}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>commons-httpclient</td>
             <td>commons-httpclient</td>
             <td>{{site.commonshttpclientVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>commons-fileupload</td>
             <td>commons-fileupload</td>
             <td>{{site.commonsfileuploadVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.commons</td>
             <td>commons-email</td>
             <td>{{site.commonsemailVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.httpcomponents</td>
             <td>httpclient</td>
             <td>{{site.httpcomponentsVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.httpcomponents</td>
             <td>fluent-hc</td>
             <td>{{site.httpcomponentsVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.httpcomponents</td>
             <td>httpclient-cache</td>
             <td>{{site.httpcomponentsVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.httpcomponents</td>
             <td>httpmime</td>
             <td>{{site.httpcomponentsVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.httpcomponents</td>
             <td>httpcore</td>
             <td>{{site.httpcoreVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.velocity</td>
             <td>velocity</td>
             <td>{{site.velocityVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>velocity</td>
             <td>velocity-dep</td>
             <td>{{site.velocitydepVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.freemarker</td>
             <td>freemarker</td>
             <td>{{site.freemarkerVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.commons</td>
             <td>not-yet-commons-ssl</td>
             <td>0.3.9</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 		<tr>
             <td>compile</td>
             <td> org.apache.poi</td>
@@ -393,7 +393,7 @@ layout: zh/default
 				</td>
             <td>{{site.poiVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>	
+            <td>Apache-2.0</td></tr>	
 
 		<tr>
             <td>compile</td>
@@ -401,7 +401,7 @@ layout: zh/default
             <td>xmlbeans</td>
             <td>{{site.xmlbeansVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>	
+            <td>Apache-2.0</td></tr>	
 
         <tr>
             <td>compile</td>
@@ -417,21 +417,21 @@ layout: zh/default
 			</td>
             <td>{{site.log4jVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.slf4j</td>
             <td>slf4j-api</td>
             <td>{{site.slf4jVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.jboss.logging</td>
             <td>jboss-logging</td>
             <td>{{site.jbossloggingVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.springframework</td>
@@ -460,28 +460,28 @@ layout: zh/default
 			</td>
             <td>{{site.springVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.kafka</td>
             <td>kafka-clients</td>
             <td>{{site.kafkaclientsVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.springframework.kafka</td>
             <td>spring-kafka</td>
             <td>{{site.springkafkaVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.springframework.retry</td>
             <td>spring-retry</td>
             <td>{{site.springretryVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.springframework.security</td>
@@ -492,7 +492,7 @@ layout: zh/default
 			</td>
             <td>{{ site.springSecurityVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.springframework.boot</td>
@@ -509,7 +509,7 @@ layout: zh/default
 			</td>
             <td>{{ site.springBootVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td>
+            <td>Apache-2.0</td>
 		</tr>
 		
 		<tr>
@@ -518,7 +518,7 @@ layout: zh/default
             <td>spring-security-oauth</td>
             <td>2.5.1</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td>
+            <td>Apache-2.0</td>
 		</tr>	
 		<tr>
             <td>compile</td>
@@ -530,7 +530,7 @@ layout: zh/default
 				</td>
             <td>{{ site.springDataVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>	
+            <td>Apache-2.0</td></tr>	
 		
 		<tr>
             <td>compile</td>
@@ -538,84 +538,84 @@ layout: zh/default
             <td>spring-plugin-core</td>
             <td>{{ site.springplugincoreVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>		
+            <td>Apache-2.0</td></tr>		
 		<tr>
             <td>compile</td>
             <td>org.springframework.plugin</td>
             <td>spring-plugin-metadata</td>
             <td>{{ site.springpluginmetadataVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 		<tr>
             <td>compile</td>
             <td>org.springframework.session</td>
             <td>spring-session-core</td>
             <td>{{ site.springSessionVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 	    <tr>
             <td>compile</td>
             <td>org.springframework.session</td>
             <td>spring-session-data-redis</td>
             <td>{{ site.springSessionVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.opensaml</td>
             <td>opensaml</td>
             <td>{{site.opensamlVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.opensaml</td>
             <td>openws</td>
             <td>{{site.openwsVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.opensaml</td>
             <td>xmltooling</td>
             <td>{{site.xmltoolingVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 		<tr>
             <td>compile</td>
             <td>net.shibboleth.utilities</td>
             <td>java-support</td>
             <td>{{site.javasupportVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>	
+            <td>Apache-2.0</td></tr>	
         <tr>
             <td>compile</td>
             <td>com.nimbusds</td>
             <td>nimbus-jose-jwt</td>
             <td>{{site.nimbusjosejwtVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>net.jcip</td>
             <td>jcip-annotations</td>
             <td>{{site.jcipannotationsVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>net.minidev</td>
             <td>json-smart</td>
             <td>{{site.minidevjsonsmartVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>net.minidev</td>
             <td>asm</td>
             <td>{{site.minidevasmVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>com.xkcoding.http</td>
@@ -636,7 +636,7 @@ layout: zh/default
             <td>javassist</td>
             <td>{{site.javassistVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.owasp.esapi</td>
@@ -692,14 +692,14 @@ layout: zh/default
             <td>validation-api</td>
             <td>{{site.validationapiVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>javax.xml</td>
             <td>jsr173</td>
             <td>{{site.jsr173Version}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>javax.xml.bind</td>
@@ -755,28 +755,28 @@ layout: zh/default
             <td>tink</td>
             <td>{{site.tinkVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>com.jhlabs</td>
             <td>filters</td>
             <td>{{site.jhlabsfiltersVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>com.github.penggle</td>
             <td>kaptcha</td>
             <td>{{site.kaptchaVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>com.google.code.gson</td>
             <td>gson</td>
             <td>{{site.gsonVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>com.fasterxml.jackson.core</td>
@@ -787,7 +787,7 @@ layout: zh/default
 			</td>
             <td>{{site.jacksonVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
        
         <tr>
             <td>compile</td>
@@ -795,14 +795,14 @@ layout: zh/default
             <td>classmate</td>
             <td>{{site.classmateVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>com.alibaba</td>
             <td>fastjson</td>
             <td>{{site.fastjsonVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.reactivestreams</td>
@@ -816,7 +816,7 @@ layout: zh/default
             <td>reactor-core</td>
             <td>{{site.reactorcoreVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>eu.tekul</td>
@@ -830,7 +830,7 @@ layout: zh/default
             <td>quartz</td>
             <td>{{site.quartzVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>mysql</td>
@@ -851,14 +851,14 @@ layout: zh/default
             <td>druid</td>
             <td>{{site.druidVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>com.alibaba</td>
             <td>druid-spring-boot-starter</td>
             <td>{{site.druidspringbootstarterVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>redis.clients</td>
@@ -872,98 +872,98 @@ layout: zh/default
             <td>ehcache</td>
             <td>{{site.ehcacheVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.mybatis</td>
             <td>mybatis</td>
             <td>{{site.mybatisVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.mybatis</td>
             <td>mybatis-spring</td>
             <td>{{site.mybatisspringVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.hibernate.validator</td>
             <td>hibernate-validator</td>
             <td>{{site.hibernateVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.hibernate</td>
             <td>hibernate-validator-cdi</td>
             <td>{{site.hibernateVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.hibernate.validator</td>
             <td>hibernate-validator-annotation-processor</td>
             <td>{{site.hibernateVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>joda-time</td>
             <td>joda-time</td>
             <td>{{site.jodatimeVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.yaml</td>
             <td>snakeyaml</td>
             <td>1.26</td>
             <td>{{site.snakeyamlVersion}}</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>net.sourceforge.nekohtml</td>
             <td>nekohtml</td>
             <td>{{site.nekohtmlVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.jdom</td>
             <td>jdom</td>
             <td>{{site.jdomVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>com.google.zxing</td>
             <td>core</td>
             <td>{{site.zxingcoreVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>com.google.guava</td>
             <td>guava</td>
             <td>{{site.guavaVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>ognl</td>
             <td>ognl</td>
             <td>{{site.ognlVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>cglib</td>
             <td>cglib</td>
             <td>{{site.cglibVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td>
+            <td>Apache-2.0</td>
 		</tr>
 		<tr>
             <td>compile</td>
@@ -971,7 +971,7 @@ layout: zh/default
             <td>ip2region</td>
             <td>1.7.2</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td>
+            <td>Apache-2.0</td>
 		</tr>
         <tr>
             <td>compile</td>
@@ -1007,28 +1007,28 @@ layout: zh/default
             <td>serializer</td>
             <td>{{site.serializerVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>xml-resolver</td>
             <td>xml-resolver</td>
             <td>{{site.xmlresolverVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.santuario</td>
             <td>xmlsec</td>
             <td>{{site.xmlsecVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.ogce</td>
             <td>xpp3</td>
             <td>{{site.xpp3Version}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>com.thoughtworks.xstream</td>
@@ -1084,49 +1084,49 @@ layout: zh/default
             <td>tencentcloud-sdk-java</td>
             <td>{{site.tencentcloudsdkjavaVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.tomcat.embed</td>
             <td>tomcat-embed-core</td>
             <td>{{site.tomcatVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
         <tr>
             <td>compile</td>
             <td>org.apache.tomcat.embed</td>
             <td>tomcat-embed-logging-juli</td>
             <td>{{site.tomcatembedloggingjuliVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 		 <tr>
             <td>compile</td>
             <td>mybatis-jpa-extra</td>
             <td>mybatis-jpa-extra</td>
             <td>2.3</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 		<tr>
             <td>compile</td>
             <td>mybatis-jpa-extra</td>
             <td>mybatis-jpa-extra-spring-boot-starter</td>
             <td>6.0.4.jre8</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 		<tr>
             <td>compile</td>
             <td>com.highgo</td>
             <td>HgdbJdbc</td>
             <td>2.3</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 		<tr>
             <td>compile</td>
             <td>gradle.plugin.com.google.cloud.tools</td>
             <td>jib-gradle-plugin</td>
             <td>{{site.jibGradlePluginVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 		<tr>
             <td>compile</td>
             <td>io.swagger</td>
@@ -1134,7 +1134,7 @@ layout: zh/default
 				swagger-models</td>
             <td>{{site.swaggerVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>
+            <td>Apache-2.0</td></tr>
 		<tr>
             <td>compile</td>
             <td>io.swagger.core.v3</td>
@@ -1146,7 +1146,7 @@ layout: zh/default
 			</td>
             <td>{{site.swaggerV3Version}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>	
+            <td>Apache-2.0</td></tr>	
 		<tr>
             <td>compile</td>
             <td>io.springfox</td>
@@ -1167,7 +1167,7 @@ layout: zh/default
 			</td>
             <td>{{site.springfoxVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td></tr>		
+            <td>Apache-2.0</td></tr>		
 		<tr>
             <td>compile</td>
             <td>com.github.xiaoymin</td>
@@ -1182,7 +1182,7 @@ layout: zh/default
 			</td>
             <td>{{site.knife4jVersion}}</td>
             <td>jar</td>
-            <td>The Apache License, Version 2.0</td>
+            <td>Apache-2.0</td>
 		</tr>	
 		
 		
