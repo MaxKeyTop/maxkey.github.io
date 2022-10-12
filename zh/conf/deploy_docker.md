@@ -11,22 +11,12 @@ MaxKey官方镜像仓库：<a href="https://hub.docker.com/u/maxkeytop" target="
 <h2>Docker Compose快速部署</h2>
 LINUX 7 基于Docker Compose快速部署
 
-1、创建MySQL数据文件和日志文件目录
-
-<pre><code class="bash hljs">
-mkdir /root/mysql
-
-mkdir /root/mysql/data
-
-mkdir /root/mysql/logs
-</code></pre>
-
-2、上传Docker配置文件
+1、上传Docker配置文件
 
 把 https://gitee.com/dromara/MaxKey/tree/main/docker 或者https://github.com/dromara/MaxKey/tree/main/docker目录上传到/root目录下
 
 
-3、启动MaxKey服务
+2、启动MaxKey服务
 <pre><code class="bash hljs">
 docker-compose up --build -d
 </code></pre>
@@ -35,14 +25,10 @@ docker-compose up --build -d
 <h2>Docker快速部署</h2>
 LINUX 7 基于Docker快速部署
 
-1、创建MySQL数据文件和日志文件目录
+1、创建docker网络连接
 
 <pre><code class="bash hljs">
-mkdir /root/mysql
-
-mkdir /root/mysql/data
-
-mkdir /root/mysql/logs
+docker network create maxkey.top
 </code></pre>
 
 2、Docker文件下载
@@ -54,13 +40,16 @@ mkdir /root/mysql/logs
 docker pull mysql:8.0.27
 
 docker run -p 3306:3306   \
--v /root/mysql/data:/var/lib/mysql \
--v /root/mysql/logs:/var/log/mysql \
--v /root/docker-mysql:/etc/mysql/conf.d  \
--v /root/docker-mysql/sql:/docker-entrypoint-initdb.d  \
+-v ./docker-mysql/data:/var/lib/mysql \
+-v ./docker-mysql/logs:/var/log/mysql \
+-v ./docker-mysql/conf.d:/etc/mysql/conf.d  \
+-v ./docker-mysql/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d  \
 --name mysql  \
+--hostname mysql \
+--network maxkey.top \
 -e MYSQL_ROOT_PASSWORD=maxkey  \
 -d mysql:8.0.27 
+
 </code></pre>
 
 4、启动MaxKey服务
@@ -71,13 +60,16 @@ docker run -p 3306:3306   \
 docker pull maxkeytop/maxkey:latest
 
 docker 	run -p 9527:9527  \
--e DATABASE_HOST=192.168.0.102 \
+-e DATABASE_HOST=mysql \
 -e DATABASE_PORT=3306 \
 -e DATABASE_NAME=maxkey \
 -e DATABASE_USER=root \
 -e DATABASE_PWD=maxkey \
 --name maxkey \
--d maxkeytop/maxkey:latest
+--hostname maxkey \
+--network maxkey.top \
+-d maxkeytop/maxkey:latest 
+
 </code></pre>
 
 5、启动MaxKey管理服务
@@ -88,13 +80,16 @@ docker 	run -p 9527:9527  \
 docker pull maxkeytop/maxkey-mgt:latest
 
 docker 	run -p 9526:9526  \
--e DATABASE_HOST=192.168.0.102 \
+-e DATABASE_HOST=mysql \
 -e DATABASE_PORT=3306 \
 -e DATABASE_NAME=maxkey \
 -e DATABASE_USER=root \
 -e DATABASE_PWD=maxkey \
 --name maxkey-mgt \
--d maxkeytop/maxkey-mgt:latest
+--hostname maxkey-mgt \
+--network maxkey.top \
+-d maxkeytop/maxkey-mgt:latest 
+
 </code></pre>
 
 
@@ -105,7 +100,10 @@ docker pull maxkeytop/maxkey-frontend:latest
 
 docker 	run -p 8527:8527  \
 --name maxkey-frontend \
--d maxkeytop/maxkey-frontend:latest
+--hostname maxkey-frontend \
+--network maxkey.top \
+-d maxkeytop/maxkey-frontend:latest 
+
 </code></pre>
 
 7、启动MaxKey管理前端服务
@@ -115,7 +113,10 @@ docker pull maxkeytop/maxkey-mgt-frontend:latest
 
 docker 	run -p 8526:8526  \
 --name maxkey-mgt-frontend \
--d maxkeytop/maxkey-mgt-frontend:latest
+--hostname maxkey-mgt-frontend \
+--network maxkey.top \
+-d maxkeytop/maxkey-mgt-frontend:latest 
+
 </code></pre>
 
 
@@ -126,11 +127,14 @@ docker 	run -p 8526:8526  \
 <pre><code class="bash hljs">
 cd docker-nginx
 
-docker build -f Dockerfile -t maxkeytop/maxkey-proxy .
+docker build -f Dockerfile -t maxkeytop/maxkey-nginx .
 
 docker 	run -p 80:80  \
---name maxkey-proxy \
--d maxkeytop/maxkey-proxy
+--name maxkey-nginx \
+--hostname maxkey-mgt-frontend \
+--network maxkey.top \
+-d maxkeytop/maxkey-nginx 
+
 </code></pre>
 
 
