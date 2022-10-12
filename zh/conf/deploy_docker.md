@@ -8,6 +8,30 @@ Docker 是一个开源的应用容器引擎，让开发者可以打包他们的�
 
 MaxKey官方镜像仓库：<a href="https://hub.docker.com/u/maxkeytop" target="_blank">访问</a>
 
+<h2>Docker Compose快速部署</h2>
+LINUX 7 基于Docker Compose快速部署
+
+1、创建MySQL数据文件和日志文件目录
+
+<pre><code class="bash hljs">
+mkdir /root/mysql
+
+mkdir /root/mysql/data
+
+mkdir /root/mysql/logs
+</code></pre>
+
+2、上传Docker配置文件
+
+把 https://gitee.com/dromara/MaxKey/tree/main/docker 或者https://github.com/dromara/MaxKey/tree/main/docker目录上传到/root目录下
+
+
+3、启动MaxKey服务
+<pre><code class="bash hljs">
+docker-compose up --build -d
+</code></pre>
+
+
 <h2>Docker快速部署</h2>
 LINUX 7 基于Docker快速部署
 
@@ -107,38 +131,6 @@ docker build -f Dockerfile -t maxkeytop/maxkey-proxy .
 docker 	run -p 80:80  \
 --name maxkey-proxy \
 -d maxkeytop/maxkey-proxy
-</code></pre>
-
-<h2>Docker Compose快速部署</h2>
-LINUX 7 基于Docker Compose快速部署
-
-1、创建MySQL数据文件和日志文件目录
-
-<pre><code class="bash hljs">
-mkdir /root/mysql
-
-mkdir /root/mysql/data
-
-mkdir /root/mysql/logs
-</code></pre>
-
-2、上传并修改Docker配置文件
-
-把 https://gitee.com/dromara/MaxKey/tree/main/docker 或者https://github.com/dromara/MaxKey/tree/main/docker目录上传到/root目录下
-
-以下配置文件中<b>DATABASE_HOST</b>为实际地址
-
-	docker-compose.yml
-	
-	docker-maxkey/Dockerfile
-	
-	docker-maxkey-mgt/Dockerfile
-	
-	docker-nginx/nginx.conf
-
-3、启动MaxKey服务
-<pre><code class="bash hljs">
-docker-compose up --build -d
 </code></pre>
 
 
