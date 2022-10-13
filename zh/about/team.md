@@ -71,6 +71,15 @@ layout: zh/default
 	</thead>
 	<tbody>
 		<tr>
+			<td>stdnt-xiao</td>
+			<td></td>
+			<td>https://github.com/stdnt-xiao</td>
+			<td></td>
+			<td>contributor</td>
+			<td>Asia/北京</td>
+			<td>Docker和docker-compose部署的优化</td>
+		</tr>
+		<tr>
 			<td>QQ793732900(恍然如梦)</td>
 			<td></td>
 			<td></td>
