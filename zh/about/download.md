@@ -15,8 +15,15 @@ layout: zh/default
 		</tr>
 	</thead>
 	<tbody>
+	
+		<tr class="b">
+			<td><i class="fa fa-flag fa-2 " aria-hidden="true" style="color:red"></i>v 3.5.9 </td>
+			<td>2022/10/25</td>
+			<td>2023/10</td>
+			<td> <a href="https://pan.baidu.com/s/17wqqyy0WGZHc-hnkMGGRsg" target="_blank">链接下载</a>  </td>
+		</tr>
 		<tr class="a">
-			<td><i class="fa fa-flag fa-2 " aria-hidden="true" style="color:red"></i>v 3.5.8 </td>
+			<td>v 3.5.8 </td>
 			<td>2022/10/11</td>
 			<td>2023/10</td>
 			<td> <a href="https://pan.baidu.com/s/1mHZghMMKLbOs8v4UTcn1iQ" target="_blank">链接下载</a>  </td>
