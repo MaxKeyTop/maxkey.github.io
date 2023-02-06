@@ -78,7 +78,7 @@ MaxKey与常用应用集成，持续更新。。。
 			<td><img src="{{ "/static/images/inteapps/jumpserver.gif" | prepend: site.baseurl }}?{{ site.time | date: "%Y%m%d%H%M" }}"  alt="" style="border:0;height: 32px;"  /></td>
 			<td>企业应用</td>
 			
-			<td></td>
+			<td><a href="{{ "/zh/am/inteapps/MaxKey和Jumpserver单点登录集成指南v1.0.pdf" | prepend: site.baseurl }}" target="_blank">集成指南</a></td>
 		</tr>
 		<tr>
 			<td>ZABBIX</td>
