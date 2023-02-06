@@ -37,18 +37,18 @@ docker network create maxkey.top
 
 3、启动MySQL服务
 <pre><code class="bash hljs">
-docker pull mysql:8.0.27
+docker pull mysql:8.0.32
 
 docker run -p 3306:3306   \
 -v ./docker-mysql/data:/var/lib/mysql \
 -v ./docker-mysql/logs:/var/log/mysql \
 -v ./docker-mysql/conf.d:/etc/mysql/conf.d  \
 -v ./docker-mysql/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d  \
---name mysql  \
---hostname mysql \
+--name maxkey-mysql  \
+--hostname maxkey-mysql \
 --network maxkey.top \
 -e MYSQL_ROOT_PASSWORD=maxkey  \
--d mysql:8.0.27 
+-d mysql:8.0.32
 
 </code></pre>
 
@@ -60,7 +60,7 @@ docker run -p 3306:3306   \
 docker pull maxkeytop/maxkey:latest
 
 docker 	run -p 9527:9527  \
--e DATABASE_HOST=mysql \
+-e DATABASE_HOST=maxkey-mysql \
 -e DATABASE_PORT=3306 \
 -e DATABASE_NAME=maxkey \
 -e DATABASE_USER=root \
@@ -80,7 +80,7 @@ docker 	run -p 9527:9527  \
 docker pull maxkeytop/maxkey-mgt:latest
 
 docker 	run -p 9526:9526  \
--e DATABASE_HOST=mysql \
+-e DATABASE_HOST=maxkey-mysql \
 -e DATABASE_PORT=3306 \
 -e DATABASE_NAME=maxkey \
 -e DATABASE_USER=root \
@@ -131,7 +131,7 @@ docker build -f Dockerfile -t maxkeytop/maxkey-nginx .
 
 docker 	run -p 80:80  \
 --name maxkey-nginx \
---hostname maxkey-mgt-frontend \
+--hostname maxkey-nginx \
 --network maxkey.top \
 -d maxkeytop/maxkey-nginx 
 
