@@ -25,116 +25,21 @@ docker-compose up --build -d
 <h2>Docker快速部署</h2>
 LINUX 7 基于Docker快速部署
 
-1、创建docker网络连接
-
-<pre><code class="bash hljs">
-docker network create maxkey.top
-</code></pre>
-
-2、Docker文件下载
+1、上传Docker配置文件及相关脚本
 
 把 https://gitee.com/dromara/MaxKey/tree/main/docker 或者https://github.com/dromara/MaxKey/tree/main/docker目录上传到/root目录下
 
-3、启动MySQL服务
+
+2、拉取docker镜像
+
 <pre><code class="bash hljs">
-docker pull mysql:8.0.32
-
-docker run -p 3306:3306   \
--v ./docker-mysql/data:/var/lib/mysql \
--v ./docker-mysql/logs:/var/log/mysql \
--v ./docker-mysql/conf.d:/etc/mysql/conf.d  \
--v ./docker-mysql/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d  \
---name maxkey-mysql  \
---hostname maxkey-mysql \
---network maxkey.top \
--e MYSQL_ROOT_PASSWORD=maxkey  \
--d mysql:8.0.32
-
+./maxkey_docker_install.sh
 </code></pre>
 
-4、启动MaxKey服务
-
-请把<b>DATABASE_HOST</b>为实际地址
+3、启动maxkey docker
 
 <pre><code class="bash hljs">
-docker pull maxkeytop/maxkey:latest
-
-docker 	run -p 9527:9527  \
--e DATABASE_HOST=maxkey-mysql \
--e DATABASE_PORT=3306 \
--e DATABASE_NAME=maxkey \
--e DATABASE_USER=root \
--e DATABASE_PWD=maxkey \
---name maxkey \
---hostname maxkey \
---network maxkey.top \
--d maxkeytop/maxkey:latest 
-
-</code></pre>
-
-5、启动MaxKey管理服务
-
-请把<b>DATABASE_HOST</b>为实际地址
-
-<pre><code class="bash hljs">
-docker pull maxkeytop/maxkey-mgt:latest
-
-docker 	run -p 9526:9526  \
--e DATABASE_HOST=maxkey-mysql \
--e DATABASE_PORT=3306 \
--e DATABASE_NAME=maxkey \
--e DATABASE_USER=root \
--e DATABASE_PWD=maxkey \
---name maxkey-mgt \
---hostname maxkey-mgt \
---network maxkey.top \
--d maxkeytop/maxkey-mgt:latest 
-
-</code></pre>
-
-
-6、启动MaxKey认证前端服务
-
-<pre><code class="bash hljs">
-docker pull maxkeytop/maxkey-frontend:latest
-
-docker 	run -p 8527:8527  \
---name maxkey-frontend \
---hostname maxkey-frontend \
---network maxkey.top \
--d maxkeytop/maxkey-frontend:latest 
-
-</code></pre>
-
-7、启动MaxKey管理前端服务
-
-<pre><code class="bash hljs">
-docker pull maxkeytop/maxkey-mgt-frontend:latest
-
-docker 	run -p 8526:8526  \
---name maxkey-mgt-frontend \
---hostname maxkey-mgt-frontend \
---network maxkey.top \
--d maxkeytop/maxkey-mgt-frontend:latest 
-
-</code></pre>
-
-
-8、启动MaxKey代理服务
-
-进入docker-nginx
-
-<pre><code class="bash hljs">
-cd docker-nginx
-
-docker build -f Dockerfile -t maxkeytop/maxkey-nginx .
-
-docker 	run -p 80:80  \
---name maxkey-nginx \
---hostname maxkey-nginx \
---network maxkey.top \
--d maxkeytop/maxkey-nginx 
-
+./maxkey_docker_start.sh
 </code></pre>
 
 
