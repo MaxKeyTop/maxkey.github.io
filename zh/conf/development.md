@@ -150,6 +150,13 @@ layout: zh/default
 		<tr>
 			<td></td>
 			<td></td>
+			<td>maxkey-authentication-sms</td>
+			<td></td>
+			<td>登录认证-短信服务</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
 			<td>maxkey-authentication-social</td>
 			<td></td>
 			<td>登录认证-社交账号</td>
@@ -167,27 +174,6 @@ layout: zh/default
 			<td></td>
 			<td></td>
 			<td>基础包</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>maxkey-identitys</td>
-			<td></td>
-			<td></td>
-			<td>身份管理</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td>maxkey-identity-rest</td>
-			<td></td>
-			<td>REST身份管理接口</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td>maxkey-identity-scim</td>
-			<td></td>
-			<td>SCIM2.0身份管理接口</td>
 		</tr>
 		<tr>
 			<td></td>
@@ -317,6 +303,27 @@ layout: zh/default
 		</tr>
 		<tr>
 			<td></td>
+			<td>maxkey-web-apis</td>
+			<td></td>
+			<td></td>
+			<td>身份管理</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>maxkey-web-api-rest</td>
+			<td></td>
+			<td>REST身份管理接口</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>maxkey-web-api-scim</td>
+			<td></td>
+			<td>SCIM2.0身份管理接口</td>
+		</tr>
+		<tr>
+			<td></td>
 			<td>maxkey-web-frontend</td>
 			<td></td>
 			<td></td>
@@ -343,8 +350,6 @@ layout: zh/default
 			<td></td>
 			<td>web服务</td>
 		</tr>
-		
-		
 		<tr>
 			<td></td>
 			<td></td>
