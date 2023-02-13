@@ -389,6 +389,8 @@ MaxKey对应的版本SQL文件，参见
 
 https://gitee.com/dromara/MaxKey/tree/master/sql/v3.5.0.ga/
 
+其中v3.5.0.ga是对应的版本号
+
 登陆LINUX MYSQL并创建schema maxkey，字符集utf8,数据文件导入到maxkey schema中，
 
 
@@ -401,7 +403,7 @@ CREATE DATABASE  IF NOT EXISTS `maxkey` /*!40100 DEFAULT CHARACTER SET utf8 */ /
 
 USE `maxkey`;
 
--- 使用source命令，后面参数为脚本文件(如这里用到的.sql),其中v3.5.0是对应的版本号
+-- 使用source命令，后面参数为脚本文件(如这里用到的.sql)
 -- 导入表结构
 source your sql path/maxkey.sql;
 
