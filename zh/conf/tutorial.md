@@ -402,10 +402,11 @@ CREATE DATABASE  IF NOT EXISTS `maxkey` /*!40100 DEFAULT CHARACTER SET utf8 */ /
 USE `maxkey`;
 
 -- 使用source命令，后面参数为脚本文件(如这里用到的.sql),其中v3.5.0是对应的版本号
+-- 导入表结构
+source your sql path/maxkey.sql;
 
-source your sql path/maxkey_v3.5.0.GA.sql;
-
-source your sql path/maxkey_v3.5.0.GA_data.sql
+-- 导入数据记录
+source your sql path/maxkey_data.sql
 
 </code></pre>
 
