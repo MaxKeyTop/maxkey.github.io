@@ -566,13 +566,13 @@ maxkey-webs/maxkey-web-maxkey/
 
 maxkey-web-frontend/maxkey-web-app
 
-ng build --prod --base-href /maxkey/
+ng build --base-href /maxkey/
 
 2)MaxKey身份安全管理前端
 
 maxkey-web-frontend/maxkey-web-mgt-app
 
-ng build --prod --base-href /maxkey-mgt/
+ng build --base-href /maxkey-mgt/
 
 
 <h3>问题及解决</h3>
