@@ -565,14 +565,16 @@ maxkey-webs/maxkey-web-maxkey/
 1)MaxKey统一认证前端
 
 maxkey-web-frontend/maxkey-web-app
-
+<pre><code class="bash hljs">
 ng build --base-href /maxkey/
+</code></pre>
 
 2)MaxKey身份安全管理前端
 
 maxkey-web-frontend/maxkey-web-mgt-app
-
+<pre><code class="bash hljs">
 ng build --base-href /maxkey-mgt/
+</code></pre>
 
 
 <h3>问题及解决</h3>
