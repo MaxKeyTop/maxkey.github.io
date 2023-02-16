@@ -163,8 +163,8 @@ http://sso.maxkey.top/sign/authz/oauth/v20/token?client_id=YOUR_CLIENT_ID&client
 	<td>应用回调地址，注册时需要配置</td>
   </tr>
   <tr>
-	<td>tokencode</td>
-	<td>调用authz/oauth/v20/authorize获得的tokencode值。</td>
+	<td>code</td>
+	<td>调用authz/oauth/v20/authorize获得的code值。</td>
   </tr>
   <tr>
 	<td>grant_type</td>
@@ -190,7 +190,7 @@ The actual request might look like:
 POST /authz/oauth/v20/token token HTTP/1.1
 Host: sso.maxkey.org/openapi
 Content-Type: application/x-www-form-urlencoded
-tokencode= PQ7q7W91a-oMsCeLvIaQm6bTrgtp7&
+code= PQ7q7W91a-oMsCeLvIaQm6bTrgtp7&
 client_id=QPKKKSADFUP876&
 client_secret={client_secret}&
 redirect_uri=http://app.maxkey.org/app/callback
