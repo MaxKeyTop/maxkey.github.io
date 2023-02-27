@@ -15,6 +15,12 @@ layout: zh/default
 		</tr>
 	</thead>
 	<tbody>
+		<tr class="b">
+			<td><i class="fa fa-flag fa-2 " aria-hidden="true" style="color:red"></i>v 3.5.15 </td>
+			<td>2023/02/28</td>
+			<td>2024/02</td>
+			<td> <a href="https://pan.baidu.com/s/1yx4k73VOxuGHsivBY2NdlQ" target="_blank">链接下载</a>  </td>
+		</tr>
 		<tr class="a">
 			<td><i class="fa fa-flag fa-2 " aria-hidden="true" style="color:red"></i>v 3.5.14 </td>
 			<td>2023/02/14</td>
